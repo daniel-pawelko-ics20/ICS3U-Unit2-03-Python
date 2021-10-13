@@ -14,10 +14,12 @@ def main():
     radius = int(input("Enter radius of circle (cm): "))
 
     # process
-    circumference = radius*constants.TAU
+    circumference = radius * constants.TAU
 
     # output
-    print(f"Circumference of circle with a radius of {radius} cm is roughly: {circumference} cm")
+    print(
+        f"\nCircumference of circle with a radius of {radius} cm is roughly: {circumference} cm"
+    )
 
     print("\nDone.")
 
